@@ -7,9 +7,11 @@
     "test": "hardhat test",
     "compile": "hardhat compile",
     "coverage": "hardhat coverage",
-    "deploy": "hardhat deploy --tags Greeter",
+    "deploy": "hardhat deploy --tags Greeter --write true",
     "testnet:deploy": "hardhat deploy --tags Greeter --network rinkeby",
     "mainnet:deploy": "hardhat deploy --tags Greeter --network mainnet",
+    "t:verify": "hardhat --network rinkeby etherscan-verify --sleep",
+    "m:verify": "hardhat --network mainnet etherscan-verify --sleep",
     "prettier": "prettier --write 'contracts/**/*.sol'"
   },
   "keywords": [],

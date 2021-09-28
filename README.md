@@ -1,6 +1,6 @@
-# Hardhat Kit
+# Hardhat Ethers Kit
 
-Hardhat basic usage with forked mainnet and console.log
+Hardhat basic usage with ethers, waffle, forked mainnet and console.log
 
 ## Dependencies
 
@@ -20,6 +20,13 @@ npm run test
 yarn test
 ```
 
+## Coverage
+
+```
+npm run coverage
+yarn coverage
+```
+
 ## Deploying
 
 ```
@@ -31,8 +38,7 @@ yarn deploy
 
 - [Hardat Tutorial](https://hardhat.org/tutorial/)
 - [Forking Mainnet](https://hardhat.org/guides/mainnet-forking.html)
-- [Hardat Truffle Plugin](https://github.com/nomiclabs/hardhat/tree/master/packages/hardhat-truffle5)
-- [Testing with Truffle](https://hardhat.org/guides/truffle-testing.html#testing-with-web3-js-truffle)
-- [Verifying contracts on etherscan](https://www.npmjs.com/package/@nomiclabs/hardhat-etherscan)
+- [Hardhat Deploy Plugin](https://github.com/wighawag/hardhat-deploy)
+- [Hardat Docs](https://hardhat.org/getting-started/)
 - [Get Alchemy Key](https://www.alchemyapi.io/)
 - [Get Etherscan key](https://etherscan.io/register)
