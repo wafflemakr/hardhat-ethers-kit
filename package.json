@@ -1,0 +1,37 @@
+{
+  "name": "hardhat-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "coverage": "hardhat coverage",
+    "deploy": "hardhat deploy --tags Greeter",
+    "testnet:deploy": "hardhat deploy --tags Greeter --network rinkeby",
+    "mainnet:deploy": "hardhat deploy --tags Greeter --network mainnet",
+    "prettier": "prettier --write 'contracts/**/*.sol'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+    "@nomiclabs/hardhat-etherscan": "2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "4.3.4",
+    "ethereum-waffle": "3.4.0",
+    "ethers": "5.4.6",
+    "hardhat": "2.4.3",
+    "hardhat-deploy": "0.8.6",
+    "hardhat-gas-reporter": "^1.0.4",
+    "prettier": "2.2.1",
+    "prettier-plugin-solidity": "1.0.0-beta.8",
+    "solidity-coverage": "^0.7.17"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.1.0",
+    "@openzeppelin/contracts-upgradeable": "4.3.2",
+    "dotenv": "8.2.0"
+  }
+}
